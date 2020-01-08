@@ -1,4 +1,7 @@
+#julia> include("/home/ajantha/Documents/NonSqSolve/NonSqDixon.jl")
+#NonSqDixonSolve (generic function with 1 method)
 
+#julia> NonSqDixonSolve(A,S)
 
 function array_mat(A::MatElem{T}) where T
    a = []

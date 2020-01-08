@@ -1,3 +1,7 @@
+#julia> include("/home/ajantha/Documents/NonSqSolve/KernelDixon.jl")
+#KernelDixon (generic function with 2 methods)
+
+
 
 function rref_with_transform(A::Generic.Mat{nf_elem})
 K = base_ring(A)
